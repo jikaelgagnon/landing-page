@@ -1,0 +1,46 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    border: 0px;
+    flex-direction: column;
+    padding: 0px 200px 100px 200px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.road {
+    width: 300px;
+    height: auto;
+}
+
+.awesome-content button{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
